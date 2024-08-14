@@ -25,5 +25,32 @@ int main(void)
 // TODO: Complete the Boolean function below
 bool valid(string password)
 {
+    bool has_lower, has_upper, has_digit, has_symbol;
+    for (int i = 0; i < strlen(password); i++)
+    {
+        char letter = password[i];
 
+        if (islower(letter))
+        {
+            has_lower = true;
+        }
+        else if (isupper(letter))
+        {
+            has_upper = true;
+        }
+        else if (isdigit(letter))
+        {
+            has_digit = true;
+        }
+        else
+        {
+            has_symbol = true;
+        }
+
+        if (has_lower && has_upper && has_digit && has_symbol)
+        {
+            return true;
+        }
+    }
+    return false;
 }
