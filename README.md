@@ -40,6 +40,10 @@ Enter your password: P@ssw0rd
 Your password is valid!
 ```
 
+![image](https://github.com/user-attachments/assets/02071764-f267-44d7-a80a-d974afe2b92d)
+
+![image](https://github.com/user-attachments/assets/53d0fdf4-43b2-475d-ae6e-d6431e222f49)
+
 ## Contributing
 1. Fork the repository.
 2. Create a new branch:
